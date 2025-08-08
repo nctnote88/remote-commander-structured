@@ -49,5 +49,15 @@
       "Frontend",
       "Backend"
     ]
+  },
+  "pm2log": {
+    "id": "pm2log",
+    "label": "ตรวจสอบ PM2 Logs",
+    "command": "sudo env PATH=$PATH pm2 log",
+    "realtime": true,
+    "groups": [
+      "Frontend",
+      "Backend"
+    ]
   }
 }
