@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Server Staging",
+    "ip": "34.87.141.163",
+    "user": "note88",
+    "auth_type": "key",
+    "key_path": "key/note88_openssh.pem",
+    "group": "Frontend"
+  },
+  {
+    "name": "db01",
+    "ip": "192.168.1.20",
+    "user": "root",
+    "auth_type": "password",
+    "password": "your_password",
+    "group": "Frontend"
+  },
+
+  {
+    "name": "aa",
+    "ip": "192.168.1.12",
+    "user": "user",
+    "auth_type": "password",
+    "password": "xxxx",
+    "group": "Backend"
+  },
+  {
+    
+    "name": "aa",
+    "ip": "192.168.1.12",
+    "user": "user",
+    "auth_type": "password",
+    "password": "xxxx",
+    "group": "Backend"
+  },
+
+  {
+    "name": "aa",
+    "ip": "192.168.1.12",
+    "user": "user",
+    "auth_type": "password",
+    "password": "xxxx",
+    "group": "Report"
+  },
+  {
+    "name": "aa",
+    "ip": "192.168.1.12",
+    "user": "user",
+    "auth_type": "password",
+    "password": "xxxx",
+    "group": "Report"
+  }
+
+]

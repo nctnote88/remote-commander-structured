@@ -1,0 +1,53 @@
+{
+  "uptime": {
+    "id": "uptime",
+    "label": "ดูเครื่องที่เปิดมา",
+    "command": "uptime",
+    "groups": [
+      "Frontend"
+    ]
+  },
+  "disk": {
+    "id": "disk",
+    "label": "แสดงดิสก์ที่ใช้",
+    "command": "df -h",
+    "groups": [
+      "Frontend",
+      "Backend",
+      "Report"
+    ]
+  },
+  "memory": {
+    "id": "memory",
+    "label": "ตรวจสอบหน่วยความจำ",
+    "command": "free -m",
+    "groups": [
+      "Frontend"
+    ]
+  },
+  "checknginx": {
+    "id": "checknginx",
+    "label": "ตรวจสอบ config nginx",
+    "command": "sudo nginx -t",
+    "groups": [
+      "Frontend"
+    ]
+  },
+  "restartnginx": {
+    "id": "restartnginx",
+    "label": "Restart nginx",
+    "command": "sudo systemctl restart nginx && sudo systemctl status nginx",
+    "groups": [
+      "Frontend"
+    ]
+  },
+  "add_whitelist": {
+    "id": "add_whitelist",
+    "label": "เพิ่ม IP เข้า whitelist (nginx)",
+    "command": "",
+    "groups": [
+      "Frontend",
+      "Backend"
+    ]
+  }
+}

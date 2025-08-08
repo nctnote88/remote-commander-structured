@@ -1,0 +1,4 @@
+{
+  "default_ssh_port": 22,
+  "timeout": 10
+}
